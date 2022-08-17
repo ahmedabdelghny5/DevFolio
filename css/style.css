@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "segoe ui light";
+    /* text-align: center; */
+}
+
+.nav-item {
+    padding: 10px 5px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 18px;
+}
+
+.home {
+    background-image: url('../images/intro-bg.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 70px;
+    position: relative;
+}
+
+.home .caption p {
+    color: #fff;
+    font-size: 40px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (max-width:900px) {
+    .navbar {
+        background-color: white;
+        color: blue !important;
+    }
+    .nav-link {
+        color: blue !important;
+        font-size: 18px;
+    }
+}
+
+#nav-item{
+    transition: all 1s;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ======================================================================== */
+
+.ahmed {
+    background-color: #f3f3f3;
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+/* ========================================================================= */
+
+.mo {
+    text-align: center;
+}
+
+.aa {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.mo .card {
+    background-color: #fff;
+    border-radius: 5%;
+    color: black;
+}
+
+.mo .card h5 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.iconns i{
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 1s;
+}
+.iconns:hover i{
+    border: none;
+    background-color: aqua;
+}
+
+/* ================================================================================= */
+
+.as .nm img {
+    transition: .5s transform;
+}
+
+.as .nm:hover img {
+    transform: scale(1.2);
+}
+
+.nm {
+    overflow: hidden;
+}
+
+
+/* ======================================================================= */
+
+.kk {
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    margin-bottom: 50px;
+}
+
+.mm {
+    background-color: rgba(26, 23, 240, 0.6);
+    height: 60vh;
+    color: #fff;
+}
+
+.mm img {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+
+/* ================================================== */
+
+.contain {
+    margin-bottom: 59px;
+}
+
+
+/* =========================== */
+
+.mh h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.mh1 .btn {
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.mh {
+    text-align: left;
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+}
+
+.mh11 {
+    background-color: rgba(26, 23, 240, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.mh1 {
+    background-color: #fff;
+    width: 80%;
+    padding: 50px 50px;
+    background-color: #fff;
+}
